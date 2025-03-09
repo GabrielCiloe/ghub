@@ -83,6 +83,7 @@ export default function Home() {
             <ProjectCard imagem="/naph-logo.svg" link="https://naph.com.br/" />
             <ProjectCard imagem="/logo-quebrando-silencio.svg" link="http://quebrandoosilencio.org" />
             <ProjectCard imagem="/salmista-logo.png" link="https://colegiosalmista.com.br/" />
+            <ProjectCard imagem="/dedos-logo.svg" link="https://dedosfalantes.com.br/" />
           </div>
         </div>
 
