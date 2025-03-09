@@ -75,8 +75,13 @@ export default function Home() {
             <ProjectCard imagem="/alia-logo.png" link="https://alialogistica.com.br/v3/" />
             <ProjectCard imagem="/ministerio-jovem-logo.png" link="https://www.adventistas.org/pt/jovensnovo/" />
             <ProjectCard imagem="/logo-unasp.png" link="https://lp.unasp.edu.br/unasplus/" />
+            <ProjectCard imagem="/logo-unasp.png" link="https://unasp.edu.br/medicina" />
+            <ProjectCard imagem="/logo-unasp.png" link="https://lp.unasp.edu.br/comercial/" />
+            <ProjectCard imagem="/iaja-logo.svg" link="https://iaja.adventistas.org/" />
             <ProjectCard imagem="/estudio-obliquo.png" link="https://estudioobliquo.com.br/" />
             <ProjectCard imagem="/yhmc-logo.png" link="https://yourhomemedicalcare.com/" />
+            <ProjectCard imagem="/naph-logo.svg" link="https://naph.com.br/" />
+            <ProjectCard imagem="/logo-quebrando-silencio.svg" link="http://quebrandoosilencio.org" />
           </div>
         </div>
 
