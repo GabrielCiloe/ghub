@@ -3,6 +3,7 @@ import bgHero from '../public/bg-hero.jpg';
 import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import macbook from '../public/macbook.png'
+import { ProjectCard } from "./components/ProjectCard";
 
 export default function Home() {
   return (
@@ -56,8 +57,30 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center items-center">
-          <Image src={macbook} alt="" width={900} quality={100}/>
+          <Image src={macbook} alt="" width={900} quality={100} />
         </div>
+      </section>
+
+      <section className="space-y-14 py-20">
+        <div className="flex flex-col space-y-5 mx-auto max-w-7xl">
+          <p className="flex flex-row items-center gap-2 font-mono text-black">
+            <span className="block bg-gray-400 rounded-full w-2 h-2" />
+            Projetos finalizados
+          </p>
+          <div className="flex flex-row justify-between items-start">
+            <h2 className="w-full max-w-[50%] font-mono font-medium text-black text-4xl uppercase">Todos esses projetos foram finalizados, o da sua empresa pode ser o próximo!</h2>
+          </div>
+          <div className="gap-2 grid grid-cols-4 mt-5">
+            <ProjectCard imagem="/gobe-logo.png" link="https://gobe.be/" />
+            <ProjectCard imagem="/alia-logo.png" link="https://alialogistica.com.br/v3/" />
+            <ProjectCard imagem="/ministerio-jovem-logo.png" link="https://www.adventistas.org/pt/jovensnovo/" />
+            <ProjectCard imagem="/logo-unasp.png" link="https://lp.unasp.edu.br/unasplus/" />
+            <ProjectCard imagem="/estudio-obliquo.png" link="https://estudioobliquo.com.br/" />
+            <ProjectCard imagem="/yhmc-logo.png" link="https://yourhomemedicalcare.com/" />
+          </div>
+        </div>
+
+
       </section>
     </main>
   );
