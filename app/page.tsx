@@ -82,6 +82,7 @@ export default function Home() {
             <ProjectCard imagem="/yhmc-logo.png" link="https://yourhomemedicalcare.com/" />
             <ProjectCard imagem="/naph-logo.svg" link="https://naph.com.br/" />
             <ProjectCard imagem="/logo-quebrando-silencio.svg" link="http://quebrandoosilencio.org" />
+            <ProjectCard imagem="/salmista-logo.png" link="https://colegiosalmista.com.br/" />
           </div>
         </div>
 
