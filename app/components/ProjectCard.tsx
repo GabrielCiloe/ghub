@@ -11,7 +11,7 @@ export function ProjectCard({ imagem, link }: ProjectCardProps) {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={imagem} alt="Imagem do projeto" className="mb-4" />
 
-            <a href={link} target="_blank" className="text-white hover:underline underline-offset-2">
+            <a href={link} target="_blank" className="font-mono text-white hover:underline underline-offset-2">
                 Acessar
             </a>
         </div>
