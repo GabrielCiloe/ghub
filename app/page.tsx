@@ -42,6 +42,25 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="space-y-14 px-5 lg:px-0 xl:px-0 py-20">
+        <div className="flex flex-col space-y-5 mx-auto max-w-7xl">
+          <p className="flex flex-row items-center gap-2 font-mono text-black">
+            <span className="block bg-gray-400 rounded-full w-2 h-2" />
+            Início
+          </p>
+          <div className="flex flex-row justify-between items-start">
+            <h2 className="w-full lg:max-w-[50%] xl:max-w-[50%] font-mono font-medium text-black text-xl lg:text-4xl xl:text-4xl uppercase">Soluções Web rápidas, práticas e perfeitamente adaptadas ao seu negócio.</h2>
+            <a href="#projetos" className="hidden lg:flex xl:flex bg-black px-7 py-3 rounded-full font-mono text-white text-lg cursor-pointer">
+              Ver projetos finalizados
+            </a>
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center">
+          <Image src={macbook} alt="" width={900} quality={100} />
+        </div>
+      </section>
+
       <section className="space-y-14 px-5 lg:px-0 xl:px-0 py-20" id="sobre">
         <div className="flex flex-col space-y-5 mx-auto max-w-7xl">
           <p className="flex flex-row items-center gap-2 font-mono text-black">
@@ -49,10 +68,7 @@ export default function Home() {
             Sobre
           </p>
           <div className="flex flex-row justify-between items-start">
-            <h2 className="w-full lg:max-w-[50%] xl:max-w-[50%] font-mono font-medium text-black text-xl lg:text-4xl xl:text-4xl uppercase">Soluções Web rápidas, práticas e perfeitamente adaptadas ao seu negócio.</h2>
-            <a href="#projetos" className="hidden lg:flex xl:flex bg-black px-7 py-3 rounded-full font-mono text-white text-lg cursor-pointer">
-              Ver projetos finalizados
-            </a>
+            <h2 className="w-full lg:max-w-[50%] xl:max-w-[50%] font-mono font-medium text-black text-xl lg:text-4xl xl:text-4xl uppercase">Trajetória</h2>
           </div>
         </div>
 
@@ -73,7 +89,7 @@ export default function Home() {
           <div className="gap-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 mt-5">
             <ProjectCard imagem="/gobe-logo.png" link="https://gobe.be/" />
             <ProjectCard imagem="/alia-logo.png" link="https://alialogistica.com.br/v3/" />
-            <ProjectCard imagem="/ministerio-jovem-logo.png" link="https://www.adventistas.org/pt/jovensnovo/" />
+            <ProjectCard imagem="/ministerio-jovem-logo.png" link="https://www.adventistas.org/pt/jovens/" />
             <ProjectCard imagem="/logo-unasp.png" link="https://lp.unasp.edu.br/unasplus/" />
             <ProjectCard imagem="/logo-unasp.png" link="https://unasp.edu.br/medicina" />
             <ProjectCard imagem="/logo-unasp.png" link="https://lp.unasp.edu.br/comercial/" />
@@ -85,6 +101,8 @@ export default function Home() {
             <ProjectCard imagem="/salmista-logo.png" link="https://colegiosalmista.com.br/" />
             <ProjectCard imagem="/dedos-logo.svg" link="https://dedosfalantes.com.br/" />
             <ProjectCard imagem="/iasd-logo.webp" link="https://www.adventistas.org/pt/metaverso/" />
+            <ProjectCard imagem="/logo-salt.png" link="https://salt.adventistas.org/" />
+            <ProjectCard imagem="/logo-dbv-campori.png" link="https://dev.camporidsa.org/inicio/" />
           </div>
         </div>
 
