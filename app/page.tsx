@@ -19,11 +19,11 @@ export default function Home() {
         <div className="flex flex-col justify-between bg-gradient-to-b from-black/40 to-violet-900 p-4 lg:p-10 xl:p-10 rounded-3xl h-[60vh] lg:h-[90vh] xl:h-[90vh]">
           <div className="flex justify-between items-center">
             <h2 className="font-bold text-white text-2xl">G-Hub</h2>
-            <nav className="flex gap-4">
+            <nav className="flex items-center gap-4">
               <a href="#sobre" className="text-white hover:text-violet-300 transition-all">Sobre</a>
               <a href="#projetos" className="text-white hover:text-violet-300 transition-all">Trabalhos</a>
+              <Link href="https://api.whatsapp.com/send?phone=19971205999&text=Oi,%20queria%20fazer%20um%20projeto%20web%20contigo." className="bg-white hover:bg-black px-4 py-1.5 border-2 hover:border-2 hover:border-violet-700 border-transparent rounded-full font-medium text-black hover:text-white transition-all">Contato</Link>
             </nav>
-            <Link href="https://api.whatsapp.com/send?phone=19971205999&text=Oi,%20queria%20fazer%20um%20projeto%20web%20contigo." className="bg-white hover:bg-black px-4 py-1.5 border-2 hover:border-2 hover:border-violet-700 border-transparent rounded-full font-medium text-black hover:text-white transition-all">Contato</Link>
           </div>
 
           <div className="flex flex-col space-y-8">
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="space-y-14 px-5 lg:px-0 xl:px-0 py-20" id="sobre">
+      {/* <section className="space-y-14 px-5 lg:px-0 xl:px-0 py-20" id="sobre">
         <div className="flex flex-col space-y-5 mx-auto max-w-7xl">
           <p className="flex flex-row items-center gap-2 font-mono text-black">
             <span className="block bg-gray-400 rounded-full w-2 h-2" />
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="flex justify-center items-center">
           <Image src={macbook} alt="" width={900} quality={100} />
         </div>
-      </section>
+      </section> */}
 
       <section className="space-y-14 px-5 lg:px-0 xl:px-0 py-20" id="projetos">
         <div className="flex flex-col space-y-5 mx-auto max-w-7xl">
