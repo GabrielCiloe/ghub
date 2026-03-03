@@ -102,7 +102,7 @@ export default function Home() {
             <ProjectCard imagem="/dedos-logo.svg" link="https://dedosfalantes.com.br/" />
             <ProjectCard imagem="/iasd-logo.webp" link="https://www.adventistas.org/pt/metaverso/" />
             <ProjectCard imagem="/logo-salt.png" link="https://salt.adventistas.org/" />
-            <ProjectCard imagem="/logo-dbv-campori.png" link="https://dev.camporidsa.org/inicio/" />
+            <ProjectCard imagem="/logo-dbv-campori.png" link="https://camporidsa.org/inicio/" />
           </div>
         </div>
 
